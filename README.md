@@ -25,3 +25,5 @@ Lastly, the get method checks the type of Object fetched from the Key. If it's a
 The advantage of this Producer Consumer approach is that the adding elements to key and removal from the cache can happen in an async way.It can scale based 
 upon the size of the thread pool. Also maintaining a heap helps as any element can be removed in O(1) time while reordering has an upper bound of
 O(nlgn).
+
+Please note that I have used Java 8 for this problem as Java 8 provides so many features(like lambas, improved Date prociessing utilities etc) which are very helpful.
